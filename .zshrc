@@ -157,6 +157,7 @@ esac
 alias ls='ls -G'
 export LSCOLORS=gxfxcxdxbxegedabagacad
 alias ll='ls -l'
-eval "$(rbenv init -)"
+which rbenv > /dev/null && eval "$(rbenv init -)"
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+alias vim='mvim -v'
 # vim:set ft=zsh:
