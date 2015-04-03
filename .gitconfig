@@ -3,3 +3,6 @@
 	name = Ueno Syogo
 [color]
 	ui = auto
+[filter "hawser"]
+	smudge = git hawser smudge %f
+	required = true
