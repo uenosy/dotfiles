@@ -160,4 +160,5 @@ alias ll='ls -l'
 which rbenv > /dev/null && eval "$(rbenv init -)"
 export PATH=$HOME/.nodebrew/current/bin:$PATH
 alias vim='mvim -v'
+export PGDATA=/usr/local/var/postgres
 # vim:set ft=zsh:
