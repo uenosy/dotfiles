@@ -52,3 +52,4 @@
   rewrite = rebase -i
   back = checkout "-"
   join = merge --no-ff
+  aliases = config --get-regexp ^alias\\.
